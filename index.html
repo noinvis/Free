@@ -8,13 +8,85 @@
     <link rel="shortcut icon" href="./src/img/free-button-svgrepo-com.svg" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <header class="bg-[url(../src/img/main.svg)] w-full h-[945px] bg-no-repeat bg-cover bg-center px-4 max-[770px]:bg-[url(../src/img/main2.svg)] max-[770px]:h-[1024px] max-[576px]:bg-[url(../src/img/bg-planshot.svg)] max-[576px]:h-[496px] max-[360px]:bg-[url(../src/img/bg-phone.svg)] max-[360px]:h-[640px]">
+        <nav class="container mx-auto h-[80px] flex items-center justify-between">
+            <div class="flex gap-[22px] items-center">
+                <img src="./src/img/logo.svg" alt="Logo">
+                <p class="text-[15px] text-white max-[576px]:text-[12px] max-[360px]:w-[36%]">Разрабатываем фирменные <br class="max-[360px]:hidden"> стили с 2009 года</p>
+            </div>
+            <div class="flex gap-[23px]">
+                <button class="text-white bg-transparent rounded-[15px] border px-[27px] hover:scale-105 duration-300 max-[770px]:hidden">8 (495) 156-39-11</button>
+                <img src="./src/img/fb.svg" alt="facebook" class="hover:scale-105 duration-300 max-[770px]:hidden">
+                <img src="./src/img/ig.svg" alt="insta" class="hover:scale-105 duration-300 max-[770px]:hidden">
+                <img src="./src/img/Group 51.svg" alt="gr" class="hidden max-[770px]:block">
+            </div>
+        </nav>
+        <div class="container mx-auto grid items-center h-[600px] max-[576px]:h-[350px] max-[450px]:h-[450px]">
+            <div>
+                <h2 class="leading-13 text-[55px] text-[#181818] max-[770px]:text-[40px] max-[770px]:leading-9 max-[770px]:text-white max-[990px]:text-[40px] max-[576px]:text-[30px] max-[450px]:text-[32px]">Вам нужен фирменный <br class="max-[450px]:hidden"> стиль или ребрендинг?</h2>
+                <p class="leading-7 text-[32px] text-[#181818] max-[770px]:text-[24px] max-[770px]:text-white max-[990px]:text-[24px] max-[576px]:text-[20px] max-[576px]:w-[37%] max-[450px]:w-[60%] mt-[16px]">Разработаем в срок от 10-ти дней</p>
+                <div class="flex gap-[30px] pt-[55px] max-[770px]:grid w-[55%] max-[576px]:flex max-[576px]:w-[100%] max-[576px]:pt-[25px] max-[450px]:grid max-[450px]:w-[70%]">
+                    <button class="text-[16px] bg-white rounded-[40px] px-[45px] py-[20px] font-medium hover:opacity-70 duration-300 max-[576px]:text-[15px] max-[576px]:py-[14px]">Портфолио</button>
+                    <button class="text-[16px] bg-white rounded-[40px] px-[45px] py-[20px] font-medium hover:opacity-70 duration-300 max-[576px]:text-[15px] max-[576px]:py-[14px]">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
-        <section></section>
+        <section class="mt-[70px] px-4">
+            <div class="container mx-auto flex-row">
+                <h2 class="text-[38px] mb-[12px] max-[990px]:text-center max-[576px]:text-[30px] max-[415px]:text-[24px]">Что такое фирменный стиль</h2>
+                <div class="flex gap-[30px] items-center justify-center max-[990px]:grid">
+                    <img src="./src/img/img.svg" alt="" class="w-[50%] max-[990px]:w-[100%]">
+                    <p class="w-[48%] text-[18px] font-medium max-[1200px]:text-[16px] max-[990px]:text-[14px] max-[990px]:w-[100%]">Это набор тех уникальных «признаков», по которым клиент отличит вас от других компаний. Фирменный стиль отражает миссию бренда, ценности, является способом его идентификации, формирует определённое восприятие в коммуникации с потребителями.
+                    <br class="block"><br class="block">
+                    В идеале разработка корпоративного стиля должна происходить одновременно с созданием бизнеса и формированием его фундаментальных идей. Есть и второй вариант: бизнес существует определенное время и ему нужен перезапуск - это называется редизайн или ребрендинг: в мире жёсткой конкуренции важно быть «в тренде», успевать за изменениями в поведениях покупателя и “говорить” с ним на одном языке.</p>
+                </div>
+            </div>
+        </section>
+        <section class="px-4 mt-[100px]">
+            <div class="container mx-auto px-4">
+                <h2 class="text-[45px] text-[#181818] font-[450px] max-[990px]:text-[40px] max-[680px]:text-[30px] max-[500px]:text-[24px]">Название и логотип – важные составляющие фирменного стиля, но на этом всё только начинается. Ниже основные элементы:</h2>
+                <div class="grid grid-cols-5 gap-[30px] max-[770px]:grid-cols-3 max-[576px]:grid-cols-1">
+                    <div class="flex gap-2 max-[576px]:gap-[70px]">
+                        <h2 class="text-[55px] text-[#181818] font-medium max-[576px]:text-[45px]">1</h2>
+                        <p class="text-[18px] text-[#181818] mt-[35px] max-[576px]:mt-[28px] max-[500px]:text-[16px] font-medium">Название <br class="max-[576px]:hidden"> компании</p>
+                    </div>
+                    <div class="flex gap-2 max-[576px]:gap-[70px]">
+                        <h2 class="text-[55px] text-[#181818] font-medium max-[576px]:text-[45px]">2</h2>
+                        <p class="font-medium text-[18px] text-[#181818] mt-[35px] max-[576px]:mt-[28px] max-[500px]:text-[16px]">Логотип – основной графический символ</p>
+                    </div>
+                    <div class="flex gap-2 max-[576px]:gap-[70px]">
+                        <h2 class="text-[55px] text-[#181818] font-medium max-[576px]:text-[45px]">3</h2>
+                        <p class="text-[18px] text-[#181818] mt-[35px] max-[576px]:mt-[28px] max-[500px]:text-[16px] font-medium">Фирменные цвета всей коммуникации (онлайн и оффлайн)</p>
+                    </div>
+                    <div class="flex gap-2 max-[576px]:gap-[70px]">
+                        <h2 class="text-[55px] text-[#181818] font-medium max-[576px]:text-[45px]">4</h2>
+                        <p class="text-[18px] text-[#181818] mt-[35px] max-[576px]:mt-[28px] max-[500px]:text-[16px] font-medium">Шрифт</p>
+                    </div>
+                    <div class="flex gap-2 max-[576px]:gap-[70px]">
+                        <h2 class="text-[55px] text-[#181818] font-medium max-[576px]:text-[45px]">5</h2>
+                        <p class="text-[18px] text-[#181818] mt-[35px] max-[576px]:mt-[28px] max-[500px]:text-[16px] font-medium">Носители фирменного стиля</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-4 mt-[100px]">
+            <div class="container mx-auto">
+                <div class="container mx-auto flex-row">
+                    <h2 class="text-[38px] mb-[12px] max-[990px]:text-center max-[576px]:text-[26px] max-[415px]:text-[20px] text-end">Сколько стоит фирменный стиль?</h2>
+                    <div class="flex gap-[30px] items-center justify-center max-[990px]:grid">
+                        <p class="w-[48%] text-[18px] font-medium max-[1200px]:text-[16px] max-[990px]:text-[14px] max-[990px]:w-[100%]">Каждая задача по разработке фирменного стиля уникальна для нас — это новый вызов и новые эмоции. Мы принципиально не предлагаем вам стандартизированные пакеты “эконом”, “стандрат”, или “премиум”, мы не штампуем, мы - создаем. <br><br>
+                        Стоимость разработки фирменного стиля в нашем агентстве начинается от 120 000 руб., финальную планку без брифинга определить невозможно - давайте созвонимся и обсудим ваш проект! <br> <br>
+                        <span class="bg-[#2B59C3] text-white">Каждый клиент нашего агентства получает приятный бонус на финише проекта, о котором мы расскажем ниже ▼</span></p>
+                        <img src="./src/img/img2.svg" alt="" class="w-[50%] max-[990px]:w-[100%]">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-4 mt-[100px]">
+            <div class="container mx-auto"></div>
+        </section>
     </main>
-    <footer>
-        
-    </footer>
 </body>
 </html>
