@@ -545,6 +545,13 @@
       }
     }
   }
+  .hover\:opacity-80 {
+    &:hover {
+      @media (hover: hover) {
+        opacity: 80%;
+      }
+    }
+  }
   .max-\[1230px\]\:w-20 {
     @media (width < 1230px) {
       width: calc(var(--spacing) * 20);
